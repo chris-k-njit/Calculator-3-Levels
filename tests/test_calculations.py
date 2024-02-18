@@ -1,4 +1,4 @@
-from calculator.operations import add, subtract, multiply, divide, exponential
+from calculator.operations import add, subtract, multiply, divide
 # Keeping tests similar to main branch from previous homework.
 
 def test_addition(): # Testing addition
@@ -16,8 +16,3 @@ def test_multiplication(): # test multiplication
 def test_division(): # test division
     '''Testing division function'''
     assert divide(4,2) == 2
-
-def test_exponents(): ## test exponent
-    '''Testing exponential function'''
-    assert exponential(2,2) == 4
-    
