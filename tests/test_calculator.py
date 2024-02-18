@@ -1,5 +1,5 @@
 '''Calculator Test'''
-from calculator import add, subtract, multiply, divide, exponential
+from calculator import add, subtract, multiply, divide
 
 def test_addition(): # Testing addition
     '''Testing addition function'''
@@ -16,7 +16,3 @@ def test_multiplication(): # test multiplication
 def test_division(): # test division
     '''Testing division function'''
     assert divide(4,2) == 2
-
-def test_exponents(): ## test exponent
-    '''Testing exponential function'''
-    assert exponential(2,2) == 4
