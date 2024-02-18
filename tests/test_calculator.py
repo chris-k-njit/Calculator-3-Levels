@@ -7,7 +7,7 @@ def test_addition(): # Testing addition
 
 def test_subtraction(): # Test subtraction
     '''Testing subtraction function'''
-    assert Calculator subtract(7,1) == 6
+    assert Calculator.subtract(7,1) == 6
 
 def test_multiplication(): # test multiplication
     '''Testing multiplication function'''
