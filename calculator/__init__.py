@@ -52,7 +52,6 @@ Polymorphism: The use of a Callable type hint for the operation parameter in _pe
 This code demonstrates effective use of object-oriented and functional programming principles to create a modular, maintainable, and easy-to-use calculator interface.
 
 '''
-
 # Import necessary modules and classes
 from calculator.calculations import Calculations  # Manages history of calculations
 from calculator.operations import add, subtract, multiply, divide  # Arithmetic operations
