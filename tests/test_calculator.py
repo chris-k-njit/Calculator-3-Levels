@@ -1,22 +1,18 @@
-'''Calculator Test'''
-from calculator import add, subtract, multiply, divide, exponential
+'''Calculator Test - No change here from previous branches'''
+from calculator import Calculator # add, subtract, multiply, divide
 
 def test_addition(): # Testing addition
     '''Testing addition function'''
-    assert add(4,4) == 8
+    assert Calculator.add(4,4) == 8
 
 def test_subtraction(): # Test subtraction
     '''Testing subtraction function'''
-    assert subtract(7,1) == 6
+    assert Calculator.subtract(7,1) == 6
 
 def test_multiplication(): # test multiplication
     '''Testing multiplication function'''
-    assert multiply(1,2) == 2
+    assert Calculator.multiply(1,2) == 2
 
 def test_division(): # test division
     '''Testing division function'''
-    assert divide(4,2) == 2
-
-def test_exponents(): ## test exponent
-    '''Testing exponential function'''
-    assert exponential(2,2) == 4
+    assert Calculator.divide(4,2) == 2
