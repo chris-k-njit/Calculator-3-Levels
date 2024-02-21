@@ -3,7 +3,7 @@ from typing import Callable, List
 
 from calculator.calculation import Calculation
 
-class Calculations:
+class Calculations:  # class method here to reference the history property
     history: List[Calculation] = []
 
     @classmethod
