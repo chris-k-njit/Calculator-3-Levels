@@ -60,7 +60,7 @@ from decimal import Decimal  # For high-precision arithmetic
 from typing import Callable  # For type hinting callable objects
 
 # Definition of the Calculator class
-class Calculator:
+class Calculator: # statis methods don't work on any data other than what is inside of static method, have no access to anything else.
     @staticmethod
     def _perform_operation(a: Decimal, b: Decimal, operation: Callable[[Decimal, Decimal], Decimal]) -> Decimal:
         """Create and perform a calculation, then return the result."""

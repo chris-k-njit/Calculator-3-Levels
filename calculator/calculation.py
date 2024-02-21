@@ -28,7 +28,7 @@ class Calculation:
         self.b = b
         # Store the operation as a callable that takes two Decimals and returns a Decimal
         # This allows for flexible assignment of any function that matches this signature (like add, subtract, etc.)
-        self.operation = operation
+        self.operation = operation # instance methods here in calculation, working on copies of class.
     
     # Static method to create a new instance of Calculation
     # This method provides an alternative constructor that can be used without instantiating the class directly
