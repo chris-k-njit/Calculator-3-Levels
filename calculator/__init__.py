@@ -72,7 +72,7 @@ class Calculator:
         return calculation.perform()
 
     @staticmethod
-    def add(a: Decimal, b: Decimal) -> Decimal:
+    def add(a: Decimal, b: Decimal) -> Decimal: # type hinting that a and b has to be a decimal, so you cannot enter a character
         # Perform addition by delegating to the _perform_operation method with the add operation
         return Calculator._perform_operation(a, b, add)
 
